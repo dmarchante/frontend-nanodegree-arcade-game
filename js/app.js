@@ -109,14 +109,14 @@ Player.prototype.handleInput = function(key) {
 
     if (this.y < 20) {
         alert("You win");
-        player.startPositon();
+        this.startPositon();
     }
 
 };
 
 Player.prototype.startPositon = function() {
-    player.x = 200;
-    player.y = 400;
+    this.x = 200;
+    this.y = 400;
 };
 
 // Now instantiate your objects.
